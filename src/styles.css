@@ -85,12 +85,12 @@ section.secondary {
 
 header {
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4)),
-    url("../images/brandenburg.jpeg");
+    url("../images/hero-image.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   color: white;
   text-align: center;
-  padding: 160px 0;
+  padding: 100px 0;
 }
 
 header h1 {
@@ -121,6 +121,12 @@ header h4 {
   margin-top: 10px;
 }
 
+header h5 {
+  font-weight: 500;
+  font-size: 24px;
+  margin: 10px;
+}
+
 header a {
   font-weight: 700;
   font-size: 14px;
@@ -132,7 +138,7 @@ header a {
   text-decoration: none;
   color: black;
   padding: 16px 32px;
-  margin-top: 32px;
+  margin-top: 18px;
   display: inline-block;
 }
 
@@ -153,7 +159,7 @@ main h2 {
 
 main h3 {
   font-weight: 700;
-  font-size: 36px;
+  font-size: 28px;
   line-height: 1.5;
   color: #272044;
   margin: 0;
@@ -177,7 +183,7 @@ main h5 {
 
 main p {
   font-weight: 400;
-  font-size: 16px;
+  font-size: 20px;
   line-height: 1.5;
   color: #272044;
   opacity: 0.9;
@@ -225,7 +231,7 @@ footer a {
 
 @media (max-width: 960px) {
   header {
-    padding: 60px 0;
+    padding: 50px 0;
   }
 
   header h1 {
@@ -240,6 +246,13 @@ footer a {
     font-size: 12px;
   }
 
+  header h4 {
+    font-size: 12px;
+  }
+
+  header h5 {
+    font-size: 10px;
+  }
   header a {
     font-size: 10px;
     padding: 10px 20px;
