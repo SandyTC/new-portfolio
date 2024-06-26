@@ -189,7 +189,7 @@ main p {
   opacity: 0.9;
 }
 
-main img {
+main .technologies {
   max-width: 50%;
   margin: 0 auto;
   display: block;
