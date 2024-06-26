@@ -189,6 +189,12 @@ main p {
   opacity: 0.9;
 }
 
+main img {
+  max-width: 50%;
+  margin: 0 auto;
+  display: block;
+}
+
 footer {
   color: white;
   background-image: linear-gradient(
